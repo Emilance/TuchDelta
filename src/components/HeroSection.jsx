@@ -45,26 +45,26 @@ const HeroSection = () => {
                          Some Of Our Clients
                          <span  className="bg-body-color ml-2 inline-block h-[1px] w-8"></span>
                      </h6>
-                     <div  className="flex items-center">
+                     {/* <div  className="flex items-center">
                          <div  className="mr-4 w-full py-3">
                          <img
-                             src="https://cdn.tailgrids.com/2.0/image/assets/images/brands/ayroui.svg"
-                             alt="ayroui"
+                             src=""
+                             alt=""
                          />
                          </div>
                          <div  className="mr-4 w-full py-3">
                          <img
-                             src="https://cdn.tailgrids.com/2.0/image/assets/images/brands/graygrids.svg"
-                             alt="graygrids"
+                             src=""
+                             alt=""
                          />
                          </div>
                          <div  className="mr-4 w-full py-3">
                          <img
-                             src="https://cdn.tailgrids.com/2.0/image/assets/images/brands/uideck.svg"
-                             alt="uideck"
+                             src=""
+                             alt=""
                          />
                          </div>
-                     </div>
+                     </div> */}
                      </div>
                  </div>
                  </div>
