@@ -3,7 +3,7 @@
 const HeroSection = () => {
     return ( 
            <>
-             <div  className="relative bg-white pt-[120px] pb-[110px] lg:pt-[150px]">
+             <div  className="relative bg-white pt-[120px] pb-[110px] px-4 lg:pt-[150px]">
              <div  className="container mx-auto">
              <div  className="-mx-4 flex flex-wrap">
                  <div  className="w-full px-4 lg:w-5/12">
@@ -22,7 +22,7 @@ const HeroSection = () => {
                      <ul  className="flex flex-wrap items-center">
                      <li>
                          <a
-                         href="javascript:void(0)"
+                         href="#"
                          className="bg-primary inline-flex items-center justify-center rounded-lg py-4 px-6 text-center text-base font-normal text-white hover:bg-opacity-90 sm:px-10 lg:px-8 xl:px-10"
                          >
                          Get Started
@@ -30,7 +30,7 @@ const HeroSection = () => {
                      </li>
                      <li>
                          <a
-                         href="javascript:void(0)"
+                         href="#"
                          className="text-white  bg-[#98AA6A] hover:text-primary inline-flex items-center justify-center py-4 px-6 text-center text-base font-bold sm:px-10 lg:px-8 xl:px-10"
                          >
                         

@@ -8,18 +8,18 @@ const Header = () => {
     return ( 
         <>
         <header
-         className="absolute left-0 top-0 z-50 w-full"
+         className="absolute bg-transparent left-0 top-0 z-50 w-full"
       >
                 <div  className="container mx-auto">
                 <div  className="relative -mx-4 flex items-center justify-between">
                     <div  className="w-60 max-w-full px-4">
-                    <a href="javascript:void(0)"  className="block w-full py-5">
+                    <Link to="#"  className="block w-full py-5">
                         <img
                         src="/tuchdelta.png"
                         alt=" tuchdelta logo"
                         className="w-full"
                         />
-                    </a>
+                    </Link>
                     </div>
                     <div  className="flex w-full items-center justify-between px-4">
                     <div>
@@ -44,37 +44,37 @@ const Header = () => {
                         >
                         <ul  className="block lg:flex">
                             <li>
-                            <a
-                                href="javascript:void(0)"
+                            <Link
+                                to='/'
                                 className="text-dark hover:text-primary flex py-2 text-base font-medium lg:ml-12 lg:inline-flex"
                             >
                                 Home
-                            </a>
+                            </Link>
                             </li>
                             <li>
-                            <a
-                                href="javascript:void(0)"
+                            <Link
+                                to="/about"
                                 className="text-dark hover:text-primary flex py-2 text-base font-medium lg:ml-12 lg:inline-flex"
                             >
                                 About
-                            </a>
+                            </Link>
                             </li>
                             <li>
                                 
-                                <a
-                                    href="javascript:void(0)"
+                                <Link
+                                    to="#"
                                     className="text-dark hover:text-primary flex py-2 text-base font-medium lg:ml-12 lg:inline-flex"
                                 >
                                     Contact
-                                </a>
+                                </Link>
                                 </li>
                             <li>
-                            <a
-                                href="javascript:void(0)"
+                            <Link
+                                to="#"
                                 className="text-dark hover:text-primary flex py-2 text-base font-medium lg:ml-12 lg:inline-flex"
                             >
                                 Shop
-                            </a>
+                            </Link>
                             </li>
                         </ul>
                         </nav>
@@ -86,38 +86,38 @@ const Header = () => {
                         >
                         <ul  className="block ">
                             <li>
-                            <a
-                                href="javascript:void(0)"
+                            <Link
+                                to="/"
                                 className="text-dark hover:text-primary flex py-2 text-base font-medium lg:ml-12 lg:inline-flex"
                             >
                                 Home
-                            </a>
+                            </Link>
                             </li>
                             <li>
-                            <a
-                                href="javascript:void(0)"
+                            <Link
+                                to="/about"
                                 className="text-dark hover:text-primary flex py-2 text-base font-medium lg:ml-12 lg:inline-flex"
                             >
                                 About
-                            </a>
+                            </Link>
                             </li>
                             <li>
                                 
-                                <a
-                                    href="javascript:void(0)"
+                                <Link
+                                    to="#"
                                     className="text-dark hover:text-primary flex py-2 text-base font-medium lg:ml-12 lg:inline-flex"
                                 >
                                     Contact
-                                </a>
+                                </Link>
                                 </li>
                             <li>
                                 
-                            <a
-                                href="javascript:void(0)"
+                            <Link
+                                to="#"
                                 className="text-dark hover:text-primary flex py-2 text-base font-medium lg:ml-12 lg:inline-flex"
                             >
                                 Shop
-                            </a>
+                            </Link>
                             </li>
                             <div  className="flex justify-end pr-16 sm:hidden lg:pr-0">
                         <Link
@@ -154,7 +154,6 @@ const Header = () => {
                 </div>
                 </div>
             </header>
-            {/* //   <!-- ====== Navbar Section End --> */}
             
        
         </>
