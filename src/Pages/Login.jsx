@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Footer from "../components/Footer";
 
 
 
@@ -16,6 +17,8 @@ const Login = () => {
         setSignUp(!signUp)
     }
     return ( 
+
+    <>
         <div className="h-[100%] bg-gradient-to-tl from-[#5A643C] to-[#98aa6a45] w-full  px-4">
 
             <div className=" h-full flex flex-col items-center justify-center">
@@ -65,6 +68,7 @@ const Login = () => {
                             <button role="button" className="focus:ring-2 focus:ring-offset-2 focus:ring-[#5a643c] text-sm font-semibold leading-none text-white focus:outline-none bg-[#5A643C] border rounded hover:bg-[#5a643ca6] py-4 w-full">Create my account</button>
                         </div>
                 </div>
+              
           }
 
 
@@ -140,6 +144,8 @@ const Login = () => {
 
             </div>
         </div>
+        <Footer/>
+    </>
      );
 }
  

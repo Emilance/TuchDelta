@@ -17,11 +17,12 @@ const Footer = () => {
                 <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Resources</h2>
                 <ul className="text-gray-600 dark:text-gray-400">
                     <li className="mb-4">
-                        <Link to="/aboutUs" className="hover:underline">About Us</Link>
+                        <Link to="/about" className="hover:underline">About Us</Link>
                     </li>
                     <li>
-                        <Link to="/shop" className="hover:underline">Shop</Link>
+                        <Link to="/contact" className="hover:underline">Join Our WaitList</Link>
                     </li>
+                    
                 </ul>
             </div>
             <div>

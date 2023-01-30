@@ -8,7 +8,7 @@ const Header = () => {
     return ( 
         <>
         <header
-         className="absolute bg-transparent left-0 top-0 z-50 w-full"
+         className=" bg-transparent absolute left-0 top-0 px-2 z-50 w-full"
       >
                 <div  className="container mx-auto">
                 <div  className="relative -mx-4 flex items-center justify-between">
@@ -62,10 +62,10 @@ const Header = () => {
                             <li>
                                 
                                 <Link
-                                    to="#"
+                                    to="/contact"
                                     className="text-dark hover:text-primary flex py-2 text-base font-medium lg:ml-12 lg:inline-flex"
                                 >
-                                    Contact
+                                    WaitList
                                 </Link>
                                 </li>
                             <li>
@@ -82,7 +82,7 @@ const Header = () => {
                         {/* Mobile Nav */}
                        {showNav && 
                         <nav
-                        className="absolute lg:hidden right-4 top-full w-full max-w-[250px] rounded-lg bg-white py-5 px-6 shadow transition-all lg:static lg:block lg:w-full lg:max-w-full lg:shadow-none"
+                        className="absolute lg:hidden right-4 top-full w-full  max-w-[250px] rounded-lg bg-white py-5 px-6 shadow transition-all lg:static lg:block lg:w-full lg:max-w-full lg:shadow-none"
                         >
                         <ul  className="block ">
                             <li>
@@ -104,10 +104,10 @@ const Header = () => {
                             <li>
                                 
                                 <Link
-                                    to="#"
+                                    to="/contact"
                                     className="text-dark hover:text-primary flex py-2 text-base font-medium lg:ml-12 lg:inline-flex"
                                 >
-                                    Contact
+                                    WaitList
                                 </Link>
                                 </li>
                             <li>
