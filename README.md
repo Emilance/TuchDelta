@@ -1,6 +1,7 @@
-# TushDelta
+# TuchDelta
 ## An ecommerce website for a sustainable clothing brand that collects old clothing, alters the clothing, and tie-dyes it
 
 Work in progress ...
-![Tushdelta](https://user-images.githubusercontent.com/100171190/215367531-a89cd593-d156-4afa-a68c-59c7f4fa76f6.PNG)
+![TuchDelta](https://user-images.githubusercontent.com/100171190/215371292-457ebcc5-0890-4e94-a733-09d93c945c3c.PNG)
+
 
