@@ -15,8 +15,8 @@ const Header = () => {
                     <div  className="w-60 max-w-full px-4">
                     <a href="javascript:void(0)"  className="block w-full py-5">
                         <img
-                        src="/tushdelta.png"
-                        alt="logo"
+                        src="/tuchdelta.png"
+                        alt=" tuchdelta logo"
                         className="w-full"
                         />
                     </a>
