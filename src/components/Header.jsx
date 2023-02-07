@@ -70,7 +70,7 @@ const Header = () => {
                                 </li>
                             <li>
                             <Link
-                                to="#"
+                                to="/product"
                                 className="text-dark hover:text-primary flex py-2 text-base font-medium lg:ml-12 lg:inline-flex"
                             >
                                 Shop
@@ -113,7 +113,7 @@ const Header = () => {
                             <li>
                                 
                             <Link
-                                to="#"
+                                to="/product"
                                 className="text-dark hover:text-primary flex py-2 text-base font-medium lg:ml-12 lg:inline-flex"
                             >
                                 Shop
