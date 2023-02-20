@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 
 const HeroSection = () => {
@@ -29,13 +30,13 @@ const HeroSection = () => {
                          </a>
                      </li>
                      <li>
-                         <a
-                         href="#"
+                         <Link
+                         to="/product"
                          className="text-white  bg-[#98AA6A] hover:text-primary inline-flex items-center justify-center py-4 px-6 text-center text-base font-bold sm:px-10 lg:px-8 xl:px-10"
                          >
                         
                          LET'S GO SHOPPING
-                         </a>
+                         </Link>
                      </li>
                      </ul>
                      <div  className="clients pt-16">
