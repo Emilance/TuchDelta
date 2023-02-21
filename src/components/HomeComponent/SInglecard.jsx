@@ -1,5 +1,5 @@
 import React from "react";
-import { MdArrowBackIos } from "react-icons/md"
+import { MdArrowBackIos , MdArrowForwardIos } from "react-icons/md"
 
 const ProductData = [
    {
@@ -30,21 +30,33 @@ const ProductData = [
 
 const SingleCard = () => {
 
-   const handleArrowClick =() =>{
+   const handleArrowClick =(param) =>{
+      const carouselCon = document.querySelector("#carouselContainer")
+
+    console.log(carouselCon)
     
+    if(param == "right"){
+      carouselCon.scrollLeft += 200
+    }else if (param = "left"){
+      carouselCon.scrollLeft -= 200
+    }
+
    }
+
+  
+
     return ( 
         <>
           <div  className="h-[30rem] w-full bg-gray-50 py-3 relative  ">
             <h1 className="text-center  font-bold text-4xl  my-4 text-[#5A643C]"> Product Categories</h1>
 
-            {/* <div className="absolute text-red-600 "    onClick={ handleArrowClick()}>
-                <MdArrowBackIos size="20" />
+            <div  className="absolute cursor-pointer text-gray-600 left-8 top-[50%] "    onClick={()=> handleArrowClick("left")}>
+                <MdArrowBackIos size="30" />
             </div>
-            <div className="absolute text-red-600"    onClick={ handleArrowClick()}>
-                <MdArrowForwardIos size="20" />
-            </div> */}
-         <div  className="w-[90%] h-[90%] md:overflow-hidden overflow-x-auto  m-auto my-4 flex justify-start items-center" >
+            <div  className="absolute cursor-pointer text-gray-600 right-8 top-[50%] "    onClick={()=> handleArrowClick("right")}>
+                <MdArrowForwardIos size="30" />
+            </div>
+         <div id="carouselContainer"  className="w-[90%] h-[90%] md:overflow-hidden overflow-x-auto  m-auto my-4 flex justify-start items-center" >
 
               
             {/* <!-- second --> */}
@@ -61,7 +73,7 @@ const SingleCard = () => {
                      </h1>
                      <p  className="hover:cursor-pointer py-1 text-gray-600 text-[0.8rem] ">{data.details}</p>
                   </div>
-                  
+                 
                </div>
               
 

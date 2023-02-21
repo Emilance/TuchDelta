@@ -62,7 +62,7 @@ const Header = () => {
                             <li>
                                 
                                 <Link
-                                    to="/contact"
+                                    to="/waitlist"
                                     className="text-dark hover:text-primary flex py-2 text-base font-medium lg:ml-12 lg:inline-flex"
                                 >
                                     WaitList
@@ -104,7 +104,7 @@ const Header = () => {
                             <li>
                                 
                                 <Link
-                                    to="/contact"
+                                    to="/waitlist"
                                     className="text-dark hover:text-primary flex py-2 text-base font-medium lg:ml-12 lg:inline-flex"
                                 >
                                     WaitList
