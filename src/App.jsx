@@ -6,19 +6,17 @@ import Homepage from "./Pages/HomePage";
 import { Route, Routes } from "react-router-dom";
 import AboutPage from "./Pages/AboutPage";
 import ContactPage from "./Pages/ContactPage";
-import AdminLogin from "./Pages/AdminLogin";
+import ProductPage from "./Pages/ProductPage";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
-    <div className="app ">
+    <div className="app  w-full">
       <Routes>
         <Route path="/" element={<Homepage />} />
         <Route path="/login" element={<Login />} />
         <Route path="/about" element={<AboutPage />} />
-        <Route path="/contact" element={<ContactPage />} />
-        <Route path="/admin" element={<AdminLogin />} />
+        <Route path="/waitlist" element={<ContactPage />} />
+        <Route path="/product" element={<ProductPage />} />
       </Routes>
     </div>
   );
