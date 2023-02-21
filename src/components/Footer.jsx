@@ -35,12 +35,18 @@ const Footer = () => {
             </h2>
             <ul className="text-gray-600 dark:text-gray-400">
               <li className="mb-4">
-                <a href="/" className="hover:underline ">
+                <a
+                  href="https://web.facebook.com/profile.php?id=100090131662915"
+                  className="hover:underline "
+                >
                   Facebook
                 </a>
               </li>
               <li>
-                <a href="/" className="hover:underline">
+                <a
+                  href="https://www.instagram.com/tuchdelta"
+                  className="hover:underline"
+                >
                   Instagram
                 </a>
               </li>
